@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	margin: 0 auto;
+	width: 800px;
+	height: 100vh;
+	background: #d1d1d1;
+}
+h2{
+	text-align: center;
+	color: #0072d3;
+}
+.form-group{
+	margin: 0 13%;
+    display: inline-block;
+}
+.te-group>input, button{
+	width: 600px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #0072d3;
+    background: #bfb9b9;
+    margin-bottom: 20px;
+}
+.te-group>label{
+	font-family: unset;
+}
+button{
+	margin: 20px 0 50px 0!important;
+	background: #00bcd4;
+	font-weight: bold;
+}
+thead{
+	background: #00bcd4;
+}
